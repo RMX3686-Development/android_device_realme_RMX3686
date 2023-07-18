@@ -67,6 +67,9 @@ PRODUCT_PACKAGES += \
     init.sensor_2_0.rc \
     init_conninfra.rc
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6877.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
 
