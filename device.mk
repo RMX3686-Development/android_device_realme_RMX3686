@@ -10,6 +10,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+PRODUCT_PACKAGES += \
+    fstab.mt6877 \
+    init.aee.rc \
+    init.ago.rc \
+    init.cgroup.rc \
+    init.connectivity.rc \
+    init.modem.rc \
+    init.mt6877.rc \
+    init.mt6877.usb.rc \
+    init.project.rc \
+    init.sensor_2_0.rc \
+    init_conninfra.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 33
 
