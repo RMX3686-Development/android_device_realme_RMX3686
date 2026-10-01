@@ -66,6 +66,12 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/lib/libfgauge_gm30.so
 
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+vendor/lib64/hw/gatekeeper.trustonic.so
+vendor/lib64/hw/libMcGatekeeper.so
+
 # Trusted Execution Environment (TEE)
 vendor/bin/tee
 vendor/bin/mcDriverDaemon
