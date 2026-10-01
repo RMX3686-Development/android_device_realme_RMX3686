@@ -30,3 +30,8 @@ debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
 debug.sf.latch_unsignaled=1
 debug.sf.use_phase_offsets_as_durations=1
+
+# Trusted Execution Environment (TEE)
+ro.hardware.kmsetkey=trustonic
+ro.hardware.gatekeeper=trustonic
+ro.vendor.mtk_trustonic_tee_support=1
