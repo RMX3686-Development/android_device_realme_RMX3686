@@ -59,6 +59,13 @@ vendor/lib/mt6877/libmtk_drvb.so
 vendor/lib/mt6877/libnir_neon_driver.so
 vendor/lib/mt6877/libpq_prot.so
 
+# Fuelgauge
+vendor/bin/fuelgauged
+vendor/bin/fuelgauged_nvram
+vendor/etc/init/fuelgauged_init.rc
+vendor/etc/init/fuelgauged_nvram_init.rc
+vendor/lib/libfgauge_gm30.so
+
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/nvram_daemon
